@@ -49,7 +49,7 @@ b <= not(a) ;
 process(clk)
 begin
 if(clk'event and clk = '1') then
-    count <= count + 2  ;
+    count <= count + 4  ;
 end if;
 end process;
 end Behavioral;
